@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body h1 {\\n  color: red; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".main-nav li {\\n  display: inline-block;\\n  padding: 5px 30px;\\n  font-weight: 400;\\n  font-size: 1.2em;\\n  margin: 10px; }\\n\\na {\\n  color: #472063;\\n  text-decoration: none; }\\n  a :hover {\\n    text-decoration: underline; }\\n\\n.landing-copy {\\n  margin-left: 70px; }\\n  .landing-copy p {\\n    font-size: 1.3em;\\n    line-height: 1.4em; }\\n  .landing-copy h1 {\\n    font-size: 3em;\\n    line-height: 1.2em; }\\n\\n.cta-button {\\n  border: 2px solid white;\\n  border-radius: 50px;\\n  background-color: #d469a5;\\n  color: white;\\n  font-weight: 700;\\n  padding: 5px 20px; }\\n  .cta-button a:hoover {\\n    background-color: #fa75ad;\\n    text-decoration: none; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
