@@ -1,7 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 $font-family:"Open Sans, sans-serif";
+$font-size: 1.2em;
+$font-size1:1.3em;
+$font-size2:3em;
 
 .body{
     font-family: $font-family;
+}
+.main-nav li {
+    display: inline-block;
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: $font-size;
+    margin: 10px;
+}
+.landing-copy p {
+    font-size: $font-size1;
+    line-height: 1.4em; 
+}
+
+.landing-copy h1 {
+    font-size: $font-size2;
+    line-height: 1.2em;
 }
