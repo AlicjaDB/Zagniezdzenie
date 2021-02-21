@@ -1,0 +1,48 @@
+$first-color: #fa75ad;
+$second-color: #472063;
+$third-color: rgba(256,256,256,0.5);
+$show: inline-block;
+$fourth-color: #73b7e1;
+$fifth-color:white;
+
+body {font-family: 'Open Sans', sans-serif;
+    background-color: $fourth-color;
+    color: white;
+    margin: 0 auto;
+
+a {
+    color: $second-color;
+    text-decoration: none;
+}
+.a.cta-button:hover {
+    background-color: $second-color;
+    text-decoration: none;
+}
+nav {
+    margin-top: 6em;
+    background-color: $third-color;
+    height: 3.75em;
+    padding: 0px 40px;
+}
+.main-nav li {
+    display: $show;
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.half-column {
+    display: $show;
+    width: 40%;
+    padding: 50px 0px 10px 20px;
+}
+.cta-button {
+    border: 2px solid $fifth-color;
+    border-radius: 50px;
+    background-color: #d469a5;
+    color:$fifth-color;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+
+}

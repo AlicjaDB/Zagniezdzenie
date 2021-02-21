@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/index.scss":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/index.scss ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/scss/index.scss":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/scss/index.scss ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".main-nav li {\\n  display: inline-block;\\n  padding: 5px 30px;\\n  font-weight: 400;\\n  font-size: 1.2em;\\n  margin: 10px; }\\n\\na {\\n  color: #472063;\\n  text-decoration: none; }\\n  a :hover {\\n    text-decoration: underline; }\\n\\n.landing-copy {\\n  margin-left: 70px; }\\n  .landing-copy p {\\n    font-size: 1.3em;\\n    line-height: 1.4em; }\\n  .landing-copy h1 {\\n    font-size: 3em;\\n    line-height: 1.2em; }\\n\\n.cta-button {\\n  border: 2px solid white;\\n  border-radius: 50px;\\n  background-color: #d469a5;\\n  color: white;\\n  font-weight: 700;\\n  padding: 5px 20px; }\\n  .cta-button a:hoover {\\n    background-color: #fa75ad;\\n    text-decoration: none; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);\", \"\"]);\n\n// Module\nexports.push([module.i, \"body {\\n  font-family: 'Open Sans', sans-serif;\\n  background-color: #73b7e1;\\n  color: white;\\n  margin: 0 auto; }\\n  body a {\\n    color: #472063;\\n    text-decoration: none; }\\n  body .a.cta-button:hover {\\n    background-color: #472063;\\n    text-decoration: none; }\\n  body nav {\\n    margin-top: 6em;\\n    background-color: rgba(255, 255, 255, 0.5);\\n    height: 3.75em;\\n    padding: 0px 40px; }\\n  body .main-nav li {\\n    display: inline-block;\\n    padding: 5px 30px;\\n    font-weight: 400;\\n    font-size: 1.2em;\\n    margin: 10px; }\\n  body .half-column {\\n    display: inline-block;\\n    width: 40%;\\n    padding: 50px 0px 10px 20px; }\\n  body .cta-button {\\n    border: 2px solid white;\\n    border-radius: 50px;\\n    background-color: #d469a5;\\n    color: white;\\n    font-weight: 700;\\n    padding: 5px 20px; }\\n\\na {\\n  color: #472063; }\\n  a:hover {\\n    text-decoration: none; }\\n\\na.cta-button:hover {\\n  background-color: #fa75ad; }\\n  a.cta-button:hover:hover {\\n    text-decoration: none; }\\n\\n.nav {\\n  text-align: center;\\n  margin-top: 6em;\\n  background-color: rgba(255, 255, 255, 0.5);\\n  height: 3.75em;\\n  padding: 0px 40px; }\\n\\n.half-column {\\n  display: inline-block;\\n  width: 40%;\\n  padding: 50px 0px 10px 20px; }\\n\\n.landing-copy {\\n  margin-left: 70px; }\\n  .landing-copy p {\\n    font-size: 1.3em;\\n    line-height: 1.4em; }\\n  .landing-copy h1 {\\n    font-size: 3em;\\n    line-height: 1.2em; }\\n\\n.cta-button {\\n  border: 2px solid white;\\n  border-radius: 50px;\\n  background-color: #d469a5;\\n  color: white;\\n  font-weight: 700;\\n  padding: 5px 20px; }\\n  .cta-button a.cta-button:hover {\\n    background-color: #fa75ad;\\n    text-decoration: none; }\\n\\n.right {\\n  float: right; }\\n\\n.body {\\n  font-family: \\\"Open Sans, sans-serif\\\"; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/scss/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -131,17 +131,6 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
-/***/ "./src/css/index.scss":
-/*!****************************!*\
-  !*** ./src/css/index.scss ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/lib/loader.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/index.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/index.scss?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -150,18 +139,18 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dis
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.scss */ \"./src/css/index.scss\");\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sum__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconsole.log(\"Hello World\");\nconsole.log(Object(_sum__WEBPACK_IMPORTED_MODULE_1__[\"sum\"])(2, 3));\nvar heading = document.querySelector(\"#demo\"),\n    sumValue = Object(_sum__WEBPACK_IMPORTED_MODULE_1__[\"sum\"])(12, 7);\nheading.innerHTML = \"12 + 7 = \".concat(sumValue);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/sum.js":
-/*!********************!*\
-  !*** ./src/sum.js ***!
-  \********************/
+/***/ "./src/scss/index.scss":
+/*!*****************************!*\
+  !*** ./src/scss/index.scss ***!
+  \*****************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("function sum(a, b) {\n  return a + b;\n}\n\nmodule.exports = {\n  sum: sum\n};\n\n//# sourceURL=webpack:///./src/sum.js?");
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/lib/loader.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/scss/index.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/scss/index.scss?");
 
 /***/ })
 

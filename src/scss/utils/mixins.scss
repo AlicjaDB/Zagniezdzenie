@@ -1,0 +1,16 @@
+@mixin repeat() {
+    text-decoration: none;
+}
+
+a {
+    color: #472063;
+    &:hover{
+    @include repeat();
+}
+}
+a.cta-button:hover {
+    background-color: #fa75ad;
+    &:hover{
+    @include repeat();
+}
+}
